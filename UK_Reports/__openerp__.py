@@ -24,7 +24,7 @@
 
 {
    'name': 'UK customised reports',
-   'version': '0.1',
+   'version': '8.0.1.0.0',
    'category': 'Reporting',
    'description': """
    Customised reports for UK:
@@ -35,15 +35,12 @@
     These have been migrated from V3.3, V4, V5, V6, V6.1 to V8
 
    """,
-   'author': 'OpusVL',
+   'author': ['OpusVL', 'Odoo Community Association (OCA)'],
    'website': 'http://opusvl.com',
    'depends': ['account_accountant', 'sale', 'report'],
-   'init_xml': [],
    'update_xml': [
-       'reports.xml',
+       'views/reports.xml',
    ],
-   'demo_xml': [],
-   'test': [],
    'license': 'AGPL-3',
    'installable': True,
    'active': False,
