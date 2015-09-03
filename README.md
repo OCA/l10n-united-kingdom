@@ -1,5 +1,5 @@
 # l10n-united-kingdom
-Odoo Localization for United Kingdom
+Odoo Localisation for United Kingdom
 
 Announcing Odoo localisation (yes, with an s!) for the UK in l10n-united-kingdom
 
