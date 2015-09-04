@@ -5,7 +5,7 @@ Announcing Odoo localisation (yes, with an s!) for the UK in l10n-united-kingdom
 
 ## Current Contributions
 
-* Module to print sale reports in a UK friendly format
+* Module to print CRM reports in a UK friendly format
 
 
 ## Contributing
