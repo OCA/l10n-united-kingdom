@@ -35,7 +35,7 @@ class order(report_sxw.rml_parse):
 report_sxw.report_sxw(
 	'report.sale.UK_SalesOrder.2', 
 	'sale.order', 
-    'addons/l10n_uk_crm_reports/report/UK_sale_print_order.rml', 
+    'addons/l10n_uk_crm_report/report/UK_sale_print_order.rml', 
 	parser=order, header="external"
 )
 
@@ -52,7 +52,7 @@ class account_invoice(report_sxw.rml_parse):
 report_sxw.report_sxw(
     'report.account.UK_Invoice.2',
     'account.invoice',
-    'addons/l10n_uk_crm_reports/report/UK_account_print_invoice.rml',
+    'addons/l10n_uk_crm_report/report/UK_account_print_invoice.rml',
     parser=account_invoice
 )
 
@@ -114,7 +114,7 @@ class Overdue(report_sxw.rml_parse):
 report_sxw.report_sxw(
     'report.account.UK_Statement.2', 
     'res.partner',
-    'addons/l10n_uk_crm_reports/report/UK_account_print_overdue.rml', 
+    'addons/l10n_uk_crm_report/report/UK_account_print_overdue.rml', 
     parser=Overdue
 )
 
