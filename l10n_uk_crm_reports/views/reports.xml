@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <report auto="False" id="sale.order_print_UK" model="sale.order" name="sale.UK_SalesOrder" rml="l10n_uk_crm_reports/report/UK_sale_print_order.rml" string="Sales Order (UK format)" />
+        <report auto="False" id="account.invoice_print_UK" model="account.invoice" name="account.UK_Invoice" rml="l10n_uk_crm_reports/report/UK_account_print_invoice.rml" string="Invoice (UK format)" />
+        <report auto="False" id="account.statement_print_UK" model="res.partner" name="account.UK_Statement.2" rml="l10n_uk_crm_reports/report/UK_account_print_overdue.rml" string="Account statement (UK format)" />
+    </data>
+</openerp>
+
