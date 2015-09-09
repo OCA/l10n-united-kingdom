@@ -21,6 +21,6 @@
 ##############################################################################
 
 
-import l10n_uk_crm_report
+# import .l10n_uk_sale_report
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
