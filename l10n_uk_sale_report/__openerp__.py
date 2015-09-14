@@ -38,7 +38,7 @@
    'author': ['OpusVL', 'Odoo Community Association (OCA)'],
    'website': 'http://opusvl.com',
    'depends': ['account_accountant', 'sale', 'report'],
-   'update_xml': [
+   'data': [
        'views/reports.xml',
    ],
    'license': 'AGPL-3',
