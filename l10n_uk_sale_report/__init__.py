@@ -20,30 +20,7 @@
 #
 ##############################################################################
 
-
-
-{
-   'name': 'UK customised reports',
-   'version': '8.0.1.0.0',
-   'category': 'Reporting',
-   'description': """
-   Customised reports for UK:
-    - Sales order / Quotation
-    - Account balance / overdue
-    - Invoice print 
-
-    These have been migrated from V3.3, V4, V5, V6, V6.1 to V8
-
-   """,
-   'author': ['OpusVL', 'Odoo Community Association (OCA)'],
-   'website': 'http://opusvl.com',
-   'depends': ['account_accountant', 'sale', 'report'],
-   'update_xml': [
-       'views/reports.xml',
-   ],
-   'license': 'AGPL-3',
-   'installable': True,
-   'active': False,
-}
+import report
+import models
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
